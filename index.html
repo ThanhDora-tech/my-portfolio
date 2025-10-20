@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Đào Quốc Thanh</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome cho icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Giới thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Kỹ năng</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Dự án</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Liên hệ</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <section id="home" class="banner">
+        <div class="banner-container">
+            <div class="banner-content">
+                <div class="banner-text">
+                    <h1 class="banner-title">
+                        Xin chào, tôi là <span class="highlight">Đào Quốc Thanh</span>
+                    </h1>
+                    <p class="banner-subtitle">Sinh viên Công nghệ Thông tin - Đại học Giao thông Vận tải TP.HCM</p>
+                    <p class="banner-description">
+                        Tôi đam mê lập trình và luôn muốn học hỏi những công nghệ mới. 
+                        Hiện tại đang tập trung phát triển kỹ năng Full-Stack Development.
+                    </p>
+                    <div class="banner-buttons">
+                        <a href="#about" class="btn btn-primary">Tìm hiểu thêm</a>
+                        <a href="#contact" class="btn btn-secondary">Liên hệ</a>
+                    </div>
+                </div>
+                <div class="banner-image">
+                    <div class="image-container">
+                        <img src="Image/ảnh 1.jpg" alt="Ảnh cá nhân" class="profile-img">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Giới thiệu về tôi</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="about-content">
+                <!-- Ảnh cá nhân -->
+                <div class="about-image-card">
+                    <div class="about-image-container">
+                        <img src="Image/ảnh 2.jpg" alt="Ảnh cá nhân" class="about-profile-img">
+                        <div class="about-image-overlay"></div>
+                    </div>
+                </div>
+                
+                <!-- Thông tin cá nhân -->
+                <div class="about-card">
+                    <div class="card-header">
+                        <i class="fas fa-user"></i>
+                        <h3>Thông tin cá nhân</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <span class="info-label">Họ và tên:</span>
+                                <span class="info-value">Đào Quốc Thanh</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Ngày sinh:</span>
+                                <span class="info-value">08/04/2005</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Giới tính:</span>
+                                <span class="info-value">Nam</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Địa chỉ:</span>
+                                <span class="info-value">Quận Bình Thạnh, TP.HCM</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Số điện thoại:</span>
+                                <span class="info-value">0385433474</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Email:</span>
+                                <span class="info-value">thanhdq1647@ut.edu.vn</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mục tiêu nghề nghiệp -->
+                <div class="about-card">
+                    <div class="card-header">
+                        <i class="fas fa-target"></i>
+                        <h3>Mục tiêu nghề nghiệp</h3>
+                    </div>
+                    <div class="card-content">
+                        <p class="goal-text">
+                            Tôi mong muốn trở thành một Full-Stack Developer chuyên nghiệp trong 3-5 năm tới. 
+                            Mục tiêu ngắn hạn là hoàn thành tốt chương trình đại học tại Đại học Giao thông Vận tải TP.HCM 
+                            và tích lũy kinh nghiệm thực tế qua các dự án cá nhân và thực tập. Dài hạn, tôi muốn đóng góp vào việc 
+                            phát triển các ứng dụng web hiện đại và có tác động tích cực đến cộng đồng.
+                        </p>
+                        <div class="goal-highlights">
+                            <span class="highlight-item">Full-Stack Development</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sở thích -->
+                <div class="about-card">
+                    <div class="card-header">
+                        <i class="fas fa-heart"></i>
+                        <h3>Sở thích</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="hobbies-grid">
+                            <div class="hobby-item">
+                                <i class="fas fa-code"></i>
+                                <span>Lập trình</span>
+                            </div>
+                            <div class="hobby-item">
+                                <i class="fas fa-gamepad"></i>
+                                <span>Chơi game</span>
+                            </div>
+                            <div class="hobby-item">
+                                <i class="fas fa-music"></i>
+                                <span>Nghe nhạc</span>
+                            </div>
+                            <div class="hobby-item">
+                                <i class="fas fa-film"></i>
+                                <span>Xem phim</span>
+                            </div>
+                            <div class="hobby-item">
+                                <i class="fas fa-utensils"></i>
+                                <span>Nấu ăn</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Kỹ năng & Ngôn ngữ</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="skills-content">
+                <!-- Ảnh kỹ năng -->
+                <div class="skills-image-card">
+                    <div class="skills-image-container">
+                        <img src="Image/ảnh 3.jpg" alt="Kỹ năng" class="skills-profile-img">
+                        <div class="skills-image-overlay"></div>
+                    </div>
+                </div>
+                
+                <!-- Ngôn ngữ -->
+                <div class="skills-card">
+                    <div class="card-header">
+                        <i class="fas fa-language"></i>
+                        <h3>Ngôn ngữ</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="language-list">
+                            <div class="language-item">
+                                <span class="language-name">Tiếng Việt</span>
+                                <div class="language-level">
+                                    <div class="level-bar">
+                                        <div class="level-fill" data-level="100"></div>
+                                    </div>
+                                    <span class="level-text">Bản ngữ</span>
+                                </div>
+                            </div>
+                            <div class="language-item">
+                                <span class="language-name">Tiếng Anh</span>
+                                <div class="language-level">
+                                    <div class="level-bar">
+                                        <div class="level-fill" data-level="70"></div>
+                                    </div>
+                                    <span class="level-text">Trung bình</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kỹ năng lập trình -->
+                <div class="skills-card">
+                    <div class="card-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Kỹ năng lập trình</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="85"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-css3-alt"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">CSS</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="80"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-js-square"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="70"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-java"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Java</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="70"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">MySQL</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="65"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kỹ năng khác -->
+                <div class="skills-card">
+                    <div class="card-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Kỹ năng khác</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="other-skills">
+                            <div class="skill-tag">Git & GitHub</div>
+                            <div class="skill-tag">Figma</div>
+                            <div class="skill-tag">Teamwork</div>
+                            <div class="skill-tag">Communication</div>
+                            <div class="skill-tag">Time Management</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="certificates">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Chứng chỉ & Giải thưởng</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="certificates-content">
+                <div class="certificates-grid">
+                    <div class="cert-item">
+                        <div class="cert-icon">
+                            <i class="fas fa-times-circle"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h4>Không có</h4>
+                            <p>Đang tích lũy thêm kinh nghiệm và chứng chỉ</p>
+                            <span class="cert-date">-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Dự án của tôi</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="projects-content">
+                <!-- Ảnh dự án -->
+                <div class="projects-image-section">
+                    <div class="projects-image-container">
+                        <img src="Image/ảnh 4.jpg" alt="Dự án" class="projects-profile-img">
+                        <div class="projects-image-overlay"></div>
+                    </div>
+                </div>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Website Portfolio</h3>
+                            <p>Thiết kế và phát triển website portfolio cá nhân sử dụng HTML, CSS, JavaScript với thiết kế responsive và nhiều animation.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Website Lớp học trực tuyến</h3>
+                            <p>Phát triển website học tập trực tuyến với các tính năng đăng ký khóa học, video bài giảng và hệ thống đánh giá.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Phần mềm Quản lý Bảo dưỡng Xe điện</h3>
+                            <p>Phát triển phần mềm quản lý bảo dưỡng xe điện cho trung tâm dịch vụ với các tính năng quản lý lịch hẹn, theo dõi tình trạng xe và báo cáo.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">React</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Liên hệ với tôi</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Hãy kết nối với tôi!</h3>
+                    <p>Tôi luôn sẵn sàng thảo luận về các cơ hội hợp tác, dự án mới hoặc chỉ đơn giản là trò chuyện về công nghệ.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>thanhdq1647@ut.edu.vn</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div class="contact-details">
+                                <h4>Điện thoại</h4>
+                                <p>0385433474</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="contact-details">
+                                <h4>Địa chỉ</h4>
+                                <p>Quận Bình Thạnh, TP.HCM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <h3>Mạng xã hội</h3>
+                    <div class="social-grid">
+                        <a href="https://www.facebook.com/aoquocthanh.841561" target="_blank" class="social-link facebook">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="https://www.instagram.com/_thanh.hh/" target="_blank" class="social-link instagram">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://github.com/ThanhDora-tech" target="_blank" class="social-link github">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Đào Quốc Thanh. Tất cả quyền được bảo lưu.</p>
+                <p>Được thiết kế bằng cả <i class="fas fa-heart"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+</body>
+</html>
