@@ -8,7 +8,6 @@ Website portfolio cá nhân được thiết kế hiện đại, responsive vớ
 portfolio-website/
 ├── index.html          # File HTML chính
 ├── style.css           # File CSS với thiết kế và animation
-├── script.js           # File JavaScript cho tương tác
 ├── images/             # Thư mục chứa ảnh
 │   ├── photo1.jpg      # Ảnh cá nhân 1 (banner)
 │   ├── photo2.jpg      # Ảnh cá nhân 2 (dự án 1)
@@ -19,56 +18,55 @@ portfolio-website/
 
 ## Tính năng chính
 
-### ✅ Đã hoàn thành theo yêu cầu:
 
-1. **Banner & Navbar** (1 điểm)
+1. **Banner & Navbar**
    - Banner với animation gradient background
    - Navbar responsive với hiệu ứng blur
    - Navigation smooth scrolling
 
-2. **Layout Flexbox & Grid** (1 điểm)
+2. **Layout Flexbox & Grid**
    - Sử dụng CSS Grid cho layout chính
    - Flexbox cho các component nhỏ
    - Responsive design hoàn chỉnh
 
-3. **Thông tin cá nhân** (0.5 điểm)
+3. **Thông tin cá nhân**
    - Card hiển thị thông tin cá nhân đầy đủ
    - Animation hover effects
 
-4. **Mục tiêu nghề nghiệp** (0.5 điểm)
+4. **Mục tiêu nghề nghiệp** 
    - Nội dung mục tiêu cá nhân
    - Highlight các lĩnh vực quan tâm
 
-5. **Sở thích** (0.5 điểm)
+5. **Sở thích** 
    - Grid layout hiển thị sở thích
    - Icons và animation hover
 
-6. **Ngôn ngữ & Kỹ năng** (1 điểm)
+6. **Ngôn ngữ & Kỹ năng** 
    - Thanh tiến độ kỹ năng với animation
    - Hiển thị trình độ ngôn ngữ
    - Skills tags với hover effects
 
-7. **Chứng chỉ - Giải thưởng** (0.5 điểm)
+7. **Chứng chỉ - Giải thưởng** 
    - Card hiển thị chứng chỉ
    - Mặc định "Không có" cho các mục trống
 
-8. **Dự án** (0.5 điểm)
+8. **Dự án** 
    - Grid hiển thị dự án cá nhân
    - Hover effects và links
 
-9. **Liên hệ** (0.5 điểm)
+9. **Liên hệ** 
    - Thông tin liên hệ đầy đủ
    - Social media links với hover effects
 
-10. **Nội dung cá nhân** (0.5 điểm)
+10. **Nội dung cá nhân** 
     - Tất cả nội dung đã được cá nhân hóa
     - Thông tin sinh viên thực tế
 
-11. **Clean code & Comment** (0.5 điểm)
+11. **Clean code & Comment** 
     - Code được comment rõ ràng
     - Cấu trúc dễ đọc và bảo trì
 
-12. **CSS3 Animations** (1.5 điểm)
+12. **CSS3 Animations** 
     - Gradient backgrounds
     - Transform animations
     - Hover effects
@@ -77,7 +75,7 @@ portfolio-website/
     - Typing animation
     - Parallax scrolling
 
-13. **Ảnh cá nhân** (1.5 điểm)
+13. **Ảnh cá nhân** 
     - 4 ảnh cá nhân theo yêu cầu
     - Tối ưu hiển thị và responsive
 
@@ -143,7 +141,6 @@ background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
 ### Thêm section mới:
 1. Thêm HTML structure trong `index.html`
 2. Thêm CSS styles trong `style.css`
-3. Thêm JavaScript interactions trong `script.js`
 
 ### Thay đổi layout:
 - Sử dụng CSS Grid cho layout chính
@@ -185,5 +182,3 @@ background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
 - Portfolio: [your-portfolio-url]
 
 ---
-
-**Lưu ý**: Đây là template portfolio, hãy tùy chỉnh nội dung và hình ảnh theo thông tin cá nhân của bạn.
