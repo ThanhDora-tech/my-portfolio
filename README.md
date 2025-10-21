@@ -1,184 +1,148 @@
-# Portfolio Website
+# 🚀 Portfolio Space Theme - Đào Quốc Thanh
 
-## Mô tả
-Website portfolio cá nhân được thiết kế hiện đại, responsive với nhiều animation sinh động.
+## 📋 Tổng quan dự án
+Portfolio cá nhân với theme không gian hiện đại, được thiết kế responsive và sử dụng CSS-only animations.
 
-## Cấu trúc thư mục
+## 🎨 Design System
+
+### Color Scheme
+- **Primary Colors**: 
+  - `#00bfff` (Deep Sky Blue) - Màu chủ đạo
+  - `#00ffff` (Cyan) - Màu accent
+  - `#0080ff` (Dodger Blue) - Màu phụ
+- **Background**: Radial gradient từ `#1b2735` → `#090a0f`
+- **Text**: `#ffffff` (White) cho primary text, `#a0d8ff` (Light Blue) cho secondary text
+
+### Typography
+- **Font Family**: Poppins (Google Fonts)
+- **Weights**: 300, 400, 500, 600, 700
+
+## 📁 Cấu trúc file
+
 ```
-portfolio-website/
+portfolio/
 ├── index.html          # File HTML chính
-├── style.css           # File CSS với thiết kế và animation
-├── images/             # Thư mục chứa ảnh
-│   ├── photo1.jpg      # Ảnh cá nhân 1 (banner)
-│   ├── photo2.jpg      # Ảnh cá nhân 2 (dự án 1)
-│   ├── photo3.jpg      # Ảnh cá nhân 3 (dự án 2)
-│   └── photo4.jpg      # Ảnh cá nhân 4 (dự án 3)
+├── style.css           # File CSS với space theme
+├── Image/              # Thư mục chứa ảnh cá nhân
+│   ├── ảnh 1.jpg      # Ảnh banner
+│   ├── ảnh 2.jpg      # Ảnh About Me
+│   ├── ảnh 3.jpg      # Ảnh Skills
+│   └── ảnh 4.jpg      # Ảnh Projects
 └── README.md           # File hướng dẫn này
 ```
 
-## Tính năng chính
+## 🎯 Các sections chính
 
+### 1. **Navigation Bar**
+- Fixed position với glass morphism effect
+- Responsive mobile menu
+- Smooth scroll navigation
 
-1. **Banner & Navbar**
-   - Banner với animation gradient background
-   - Navbar responsive với hiệu ứng blur
-   - Navigation smooth scrolling
+### 2. **Banner Section**
+- Hero section với thông tin giới thiệu
+- Ảnh cá nhân với glow effects
+- Call-to-action buttons
 
-2. **Layout Flexbox & Grid**
-   - Sử dụng CSS Grid cho layout chính
-   - Flexbox cho các component nhỏ
-   - Responsive design hoàn chỉnh
+### 3. **About Section**
+- Thông tin cá nhân chi tiết
+- Mục tiêu nghề nghiệp
+- Sở thích cá nhân
 
-3. **Thông tin cá nhân**
-   - Card hiển thị thông tin cá nhân đầy đủ
-   - Animation hover effects
+### 4. **Skills Section**
+- Ngôn ngữ (Tiếng Việt, Tiếng Anh)
+- Kỹ năng lập trình (HTML, CSS, JavaScript, Java, MySQL)
+- Kỹ năng khác (Git, Figma, Teamwork, etc.)
 
-4. **Mục tiêu nghề nghiệp** 
-   - Nội dung mục tiêu cá nhân
-   - Highlight các lĩnh vực quan tâm
+### 5. **Certificates Section**
+- Chứng chỉ và giải thưởng (hiện tại: "Không có")
 
-5. **Sở thích** 
-   - Grid layout hiển thị sở thích
-   - Icons và animation hover
+### 6. **Projects Section**
+- 3 dự án chính:
+  - Website Portfolio
+  - Website Lớp học trực tuyến
+  - Phần mềm Quản lý Bảo dưỡng Xe điện
 
-6. **Ngôn ngữ & Kỹ năng** 
-   - Thanh tiến độ kỹ năng với animation
-   - Hiển thị trình độ ngôn ngữ
-   - Skills tags với hover effects
+### 7. **Contact Section**
+- Thông tin liên hệ
+- Social media links (Facebook, Instagram, GitHub)
 
-7. **Chứng chỉ - Giải thưởng** 
-   - Card hiển thị chứng chỉ
-   - Mặc định "Không có" cho các mục trống
+## 🎭 Animation System
 
-8. **Dự án** 
-   - Grid hiển thị dự án cá nhân
-   - Hover effects và links
+### Keyframe Animations
+- `twinkle` - Nhấp nháy sao
+- `nebulaFloat` - Chuyển động tinh vân
+- `spaceGlow` - Hiệu ứng phát sáng
+- `spacePulse` - Nhịp đập không gian
+- `cardFloat` - Cards bay lơ lửng
+- `skillsGlow` - Skills phát sáng
+- `projectBounce` - Projects nhảy
+- `socialBounce` - Social links nhảy
 
-9. **Liên hệ** 
-   - Thông tin liên hệ đầy đủ
-   - Social media links với hover effects
+### Hover Effects
+- Scale, rotate, translateY transforms
+- Box-shadow và border-color changes
+- Smooth transitions với cubic-bezier easing
 
-10. **Nội dung cá nhân** 
-    - Tất cả nội dung đã được cá nhân hóa
-    - Thông tin sinh viên thực tế
+## 📱 Responsive Design
 
-11. **Clean code & Comment** 
-    - Code được comment rõ ràng
-    - Cấu trúc dễ đọc và bảo trì
-
-12. **CSS3 Animations** 
-    - Gradient backgrounds
-    - Transform animations
-    - Hover effects
-    - Scroll animations
-    - Particle effects
-    - Typing animation
-    - Parallax scrolling
-
-13. **Ảnh cá nhân** 
-    - 4 ảnh cá nhân theo yêu cầu
-    - Tối ưu hiển thị và responsive
-
-## Cách sử dụng
-
-### 1. Chuẩn bị ảnh
-- Đặt 4 ảnh cá nhân vào thư mục `images/`
-- Đặt tên file theo thứ tự: `photo1.jpg`, `photo2.jpg`, `photo3.jpg`, `photo4.jpg`
-- Kích thước khuyến nghị: 400x400px cho ảnh vuông, 800x600px cho ảnh dự án
-
-### 2. Tùy chỉnh nội dung
-Mở file `index.html` và thay đổi các thông tin sau:
-
-```html
-<!-- Thay đổi thông tin cá nhân -->
-<h1 class="banner-title">
-    Xin chào, tôi là <span class="highlight">TÊN CỦA BẠN</span>
-</h1>
-
-<!-- Cập nhật thông tin trong phần About -->
-<span class="info-value">TÊN CỦA BẠN</span>
-<span class="info-value">NGÀY SINH CỦA BẠN</span>
-<!-- ... các thông tin khác -->
-```
-
-### 3. Tùy chỉnh màu sắc
-Trong file `style.css`, thay đổi gradient colors:
-
-```css
-/* Thay đổi màu chủ đạo */
-background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
-```
-
-### 4. Chạy website
-- Mở file `index.html` trong trình duyệt
-- Hoặc sử dụng live server nếu có VS Code
-
-## Tính năng nâng cao
-
-### Animations được sử dụng:
-- **Fade In/Out**: Khi scroll vào viewport
-- **Slide In**: Từ trái/phải khi xuất hiện
-- **Scale In**: Phóng to khi hover
-- **Parallax**: Banner background
-- **Typing Effect**: Banner title
-- **Particle System**: Background particles
-- **Gradient Animations**: Background gradients
-- **Hover Transformations**: Card hover effects
-
-### Responsive Breakpoints:
+### Breakpoints
 - **Desktop**: > 768px
-- **Tablet**: 768px - 480px
-- **Mobile**: < 480px
+- **Tablet**: ≤ 768px
+- **Mobile**: ≤ 480px
 
-### Browser Support:
-- Chrome 60+
-- Firefox 55+
-- Safari 12+
-- Edge 79+
+### Mobile Optimizations
+- Hamburger menu
+- Reduced font sizes
+- Optimized spacing
+- Touch-friendly interactions
 
-## Tùy chỉnh nâng cao
+## 🛠️ Technical Features
 
-### Thêm section mới:
-1. Thêm HTML structure trong `index.html`
-2. Thêm CSS styles trong `style.css`
+### CSS Features
+- CSS Grid & Flexbox layouts
+- CSS Custom Properties (variables)
+- Backdrop-filter cho glass morphism
+- CSS-only animations và transitions
+- Smooth scroll behavior
 
-### Thay đổi layout:
-- Sử dụng CSS Grid cho layout chính
-- Flexbox cho alignment và spacing
-- Media queries cho responsive
+### Performance
+- Optimized images
+- Efficient CSS selectors
+- Minimal dependencies (chỉ Font Awesome & Google Fonts)
 
-### Thêm animation:
+## 🎨 Customization
+
+### Thay đổi màu sắc
+Chỉnh sửa các biến màu trong `style.css`:
 ```css
-.element {
-    transition: all 0.3s ease;
-    transform: translateY(0);
-}
+/* Primary colors */
+#00bfff  /* Deep Sky Blue */
+#00ffff  /* Cyan */
+#0080ff  /* Dodger Blue */
 
-.element:hover {
-    transform: translateY(-10px);
-}
+/* Background */
+#1b2735 → #090a0f  /* Radial gradient */
 ```
 
-## Troubleshooting
+### Thêm sections mới
+1. Thêm HTML structure trong `index.html`
+2. Thêm CSS styling trong `style.css`
+3. Thêm responsive breakpoints nếu cần
 
-### Ảnh không hiển thị:
-- Kiểm tra đường dẫn file ảnh
-- Đảm bảo tên file đúng (photo1.jpg, photo2.jpg, etc.)
-- Kiểm tra kích thước file ảnh
+## 🚀 Deployment
 
-### Animation không hoạt động:
-- Kiểm tra JavaScript có được load không
-- Xem console để tìm lỗi
-- Đảm bảo CSS animations được support
+1. Upload tất cả files lên web server
+2. Đảm bảo thư mục `Image/` có đủ 4 ảnh
+3. Test responsive trên các thiết bị khác nhau
 
-### Responsive không đúng:
-- Kiểm tra viewport meta tag
-- Test trên các kích thước màn hình khác nhau
-- Sử dụng developer tools để debug
+## 📞 Liên hệ
 
-## Liên hệ
-- Email: tranvana@email.com
-- GitHub: [your-github-profile]
-- Portfolio: [your-portfolio-url]
+- **Email**: thanhdq1647@ut.edu.vn
+- **Phone**: 0385433474
+- **Facebook**: [Đào Quốc Thanh](https://www.facebook.com/aoquocthanh.841561)
+- **GitHub**: [ThanhDora-tech](https://github.com/ThanhDora-tech)
+- **Instagram**: [_thanh.hh](https://www.instagram.com/_thanh.hh/)
 
 ---
+
+*Portfolio được thiết kế với ❤️ bởi Đào Quốc Thanh*

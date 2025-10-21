@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
+    <!-- ===== PORTFOLIO SPACE THEME HTML ===== -->
+    <!-- 
+    Portfolio cá nhân của Đào Quốc Thanh với theme không gian
+    - Responsive design với mobile-first approach
+    - Space theme với dark background và cyan accents
+    - CSS-only animations và effects
+    - Semantic HTML structure với proper accessibility
+    -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Đào Quốc Thanh</title>
     <link rel="stylesheet" href="style.css">
     <!-- Font Awesome cho icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <!-- Google Fonts -->
+    <!-- Google Fonts - Poppins cho typography hiện đại -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation Bar -->
+    <!-- Navigation Bar - Thanh điều hướng cố định với hiệu ứng glass morphism -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
+            <!-- Logo cá nhân với gradient text -->
             <div class="nav-logo">
-                <a href="#home">Portfolio</a>
+                <a href="#home">ThanhDev</a>
             </div>
+            <!-- Menu điều hướng chính -->
             <ul class="nav-menu" id="nav-menu">
                 <li class="nav-item">
                     <a href="#home" class="nav-link">Trang chủ</a>
@@ -34,6 +44,7 @@
                     <a href="#contact" class="nav-link">Liên hệ</a>
                 </li>
             </ul>
+            <!-- Hamburger menu cho mobile responsive -->
             <div class="nav-toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -42,10 +53,11 @@
         </div>
     </nav>
 
-    <!-- Banner Section -->
+    <!-- Banner Section - Hero section với thông tin giới thiệu và ảnh cá nhân -->
     <section id="home" class="banner">
         <div class="banner-container">
             <div class="banner-content">
+                <!-- Text content bên trái -->
                 <div class="banner-text">
                     <h1 class="banner-title">
                         Xin chào, tôi là <span class="highlight">Đào Quốc Thanh</span>
@@ -55,19 +67,22 @@
                         Tôi đam mê lập trình và luôn muốn học hỏi những công nghệ mới. 
                         Hiện tại đang tập trung phát triển kỹ năng Full-Stack Development.
                     </p>
+                    <!-- Call-to-action buttons -->
                     <div class="banner-buttons">
                         <a href="#about" class="btn btn-primary">Tìm hiểu thêm</a>
                         <a href="#contact" class="btn btn-secondary">Liên hệ</a>
                     </div>
                 </div>
+                <!-- Ảnh cá nhân bên phải với hiệu ứng glow -->
                 <div class="banner-image">
                     <div class="image-container">
                         <img src="Image/ảnh 1.jpg" alt="Ảnh cá nhân" class="profile-img">
-                        <div class="image-overlay"></div>
+                        <div class="image-overlay"></div> <!-- Overlay gradient khi hover -->
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Scroll indicator để hướng dẫn người dùng cuộn xuống -->
         <div class="scroll-indicator">
             <div class="scroll-arrow"></div>
         </div>
